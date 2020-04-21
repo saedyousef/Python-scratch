@@ -1,0 +1,25 @@
+%message {
+    font-size: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+}
+
+.success {
+    @extend %message;
+    background-color: cadetblue;
+}
+
+.warning {
+    @extend %message;
+    background-color: yellow;
+    color: black;
+}
+
+.danger {
+    @extend %message;
+    background-color: firebrick;
+}
