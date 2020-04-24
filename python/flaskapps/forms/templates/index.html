@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block heading%}
+    Index Page
+{% endblock %}
+
+{% block body%}
+    <form method="POST" action="{{url_for('hello')}}">
+        <input type="text" name="name" placeholder="Enter your name">
+        <button>Submit</button>
+    </form>
+{% endblock %}
