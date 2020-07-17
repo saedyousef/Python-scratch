@@ -1,1 +1,1 @@
-# CS-50
+# Python(Scratch)
